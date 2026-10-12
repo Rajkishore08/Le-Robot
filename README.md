@@ -24,6 +24,9 @@
 🤗 State-of-the-art policies that have been shown to transfer to the real-world ready for training and deployment.
 
 🤗 Comprehensive support for the open-source ecosystem to democratize physical AI.
+> [!TIP]
+> **SO-ARM101 (SO-101 / SO-100) Robotic Arm Quick Start & Windows Deployment:**
+> For the complete step-by-step setup, Feetech servo driver patches, calibration backup, and teleoperation instructions on Windows & macOS, please see [**README_SO101_WINDOWS.md**](./README_SO101_WINDOWS.md).
 
 ## Quick Start
 

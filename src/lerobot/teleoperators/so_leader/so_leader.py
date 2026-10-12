@@ -139,8 +139,8 @@ class SOLeader(Teleoperator):
                 id=m.id,
                 drive_mode=0,
                 homing_offset=int(homing_offsets[motor]),
-                range_min=int(range_mins[motor]),
-                range_max=int(range_maxes[motor]),
+                range_min=max(0, min(4095, int(range_mins[motor]))),
+                range_max=max(0, min(4095, int(range_maxes[motor]))),
             )
 
         self.bus.write_calibration(self.calibration)
